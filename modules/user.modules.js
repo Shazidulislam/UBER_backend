@@ -1,4 +1,4 @@
-
+// five page
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
         },
         lastname:{
             type:String,
-            minlength:[3 , "First name must be at least 3 characters long"]
+            minlength:[3 , "Laast name must be at least 3 characters long"]
         },
     },
     email:{
